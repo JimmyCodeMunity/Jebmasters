@@ -8,11 +8,14 @@ import Stats from "../components/Stats";
 import About from "../components/About";
 import HeroTwo from "../components/HeroTwo";
 import Navbar from "../components/Navbar";
+import AppLayout from "../layout/AppLayout";
 
 const HomePage = () => {
   const bgtransparent = true;
   return (
+    <AppLayout>
     <div className="bg-cover h-screen bg-center bg-[url('../images/esc1.jpg')]">
+      
       <div className="herocover">
       <Navbar bgtransparent={bgtransparent} />
       <HeroTwo/>
@@ -25,7 +28,9 @@ const HomePage = () => {
       <Gallery />
       <Footer />
       </div>
+      
     </div>
+    </AppLayout>
   );
 };
 

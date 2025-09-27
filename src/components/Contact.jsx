@@ -10,7 +10,7 @@ const Contact = () => {
               <div class="group w-full h-full">
                 <div class="relative h-full">
                   <img
-                    src="https://pagedone.io/asset/uploads/1696488602.png"
+                    src="../images/l5.jpeg"
                     alt="ContactUs tailwind section"
                     class="w-full h-full lg:rounded-l-2xl rounded-2xl bg-blend-multiply bg-orange-700 object-cover"
                   />
