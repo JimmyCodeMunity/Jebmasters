@@ -6,17 +6,25 @@ import Footer from "../components/Footer";
 import Gallery from "../components/Gallery";
 import Stats from "../components/Stats";
 import About from "../components/About";
+import HeroTwo from "../components/HeroTwo";
+import Navbar from "../components/Navbar";
 
 const HomePage = () => {
+  const bgtransparent = true;
   return (
-    <div>
-      <Hero />
+    <div className="bg-cover h-screen bg-center bg-[url('../images/esc1.jpg')]">
+      <div className="herocover">
+      <Navbar bgtransparent={bgtransparent} />
+      <HeroTwo/>
+      {/* <Hero /> */}
+      
       <About />
       <Services />
       <Stats />
       <Team />
       <Gallery />
       <Footer />
+      </div>
     </div>
   );
 };

@@ -20,12 +20,12 @@ const Team = () => {
             <div class="w-full lg:w-1/2 lg:mt-0 md:mt-40 mt-16 max-lg:max-w-2xl">
               <div class="grid grid-cols-1 min-[450px]:grid-cols-2 md:grid-cols-3 gap-8">
                 <img
-                  src="https://pagedone.io/asset/uploads/1696238644.png"
+                  src="../images/l11.jpeg"
                   alt="Team tailwind section"
                   class="w-44 h-56 rounded-2xl object-cover md:mt-20 mx-auto min-[450px]:mr-0"
                 />
                 <img
-                  src="https://pagedone.io/asset/uploads/1696238665.png"
+                  src="../images/l10.jpeg"
                   alt="Team tailwind section"
                   class="w-44 h-56 rounded-2xl object-cover mx-auto min-[450px]:ml-0 md:mx-auto"
                 />

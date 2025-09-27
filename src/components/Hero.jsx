@@ -38,13 +38,13 @@ const Hero = () => {
                   />
                   <img
                     src="../images/esc3.jpeg"
-                    className="rounded-full object-cover h-[300px] w-[200px]"
+                    className="rounded-full object-cover h-[300px] w-[300px]"
                     alt=""
                   />
                 </div>
                 <img
                   src="../images/esc5.jpeg"
-                  className="rounded-full object-cover h-[500px] w-[300px]"
+                  className="rounded-full object-cover h-[400px] w-[300px]"
                   alt=""
                 />
               </div>
