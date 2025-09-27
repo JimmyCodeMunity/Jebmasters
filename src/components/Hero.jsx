@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="">
         <div className="w-full h-screen overflow-y-hidden bg-cover bg-center bg-[url('../images/esc1.jpg')]">
           <div className="herocover">
-            <Navbar bgtransparent={bgtransparent} />
+            {/* <Navbar bgtransparent={bgtransparent} /> */}
             <div className="px-16 md:grid grid-cols-2 flex flex-col w-full h-[calc(100vh-80px)]">
               <div className="w-full justify-center items-center flex flex-col">
                 <div className="space-y-6">

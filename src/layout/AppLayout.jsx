@@ -5,7 +5,9 @@ import { motion, useScroll } from "motion/react"
 
 const AppLayout = ({ children, bgtransparent }) => {
   const { scrollYProgress } = useScroll()
-  console.log("progress",scrollYProgress)
+  // get pathname
+  const pathname = window.location.pathname;
+  console.log("pathname", pathname)
   return (
     <div className="w-full bg-transparent">
       <motion.div
@@ -23,6 +25,9 @@ const AppLayout = ({ children, bgtransparent }) => {
                     zIndex: 1000,
                 }}
             />
+            {
+              pathname !== "/" ? <Navbar bgtransparent={bgtransparent} /> : null
+            }
       {children}
       {/* <Footer /> */}
     </div>
